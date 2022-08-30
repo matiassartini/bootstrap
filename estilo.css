@@ -1,0 +1,91 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 3rem;
+}
+
+.encabezado {
+  border-top: solid 20px violet;
+}
+
+.nekoLogo {
+  width: 8rem;
+}
+
+.fuentesNav {
+  font-size: 3rem;
+  padding-left: 2rem;
+}
+
+.editorTexto {
+  color: blueviolet;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+}
+
+.tituloProductos {
+  background-color: violet;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 1rem;
+}
+.tituloProductos h2 {
+  font-size: 3rem;
+}
+
+.colorBtn {
+  background-color: violet;
+  color: white;
+  font-size: 1.5rem;
+}
+
+footer {
+  background-color: violet;
+  color: black;
+}
+footer ul li a {
+  color: black !important;
+  font-size: 1rem;
+}
+
+.imgCarousel {
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.imagenProducto {
+  transition: height 0.5s, width 0.5s;
+}
+.imagenProducto:hover {
+  height: 300px;
+  width: 300px;
+}
+
+.fondoImg {
+  background-image: url("../img/pngegg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.colorBtn {
+  background-color: violet;
+  color: black;
+  font-size: 1.5rem;
+}
+
+.tituloPrincipal {
+  color: black;
+}
+
+.cuerpoTexto {
+  color: black solid;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+}/*# sourceMappingURL=estilo.css.map */
