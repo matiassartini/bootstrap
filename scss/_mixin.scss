@@ -1,0 +1,9 @@
+@mixin editorTexto($size, $fuente, $color) {
+    font-size: $size ;
+    font-family: $fuente;
+    color: $color;
+}
+
+.parrafoMix {
+    @include editorTexto(2rem, Arial, blueviolet )
+}

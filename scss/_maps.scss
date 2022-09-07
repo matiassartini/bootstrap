@@ -1,0 +1,6 @@
+$texto: (color: lightblue, tamFuente: 40px);
+
+.mapGet {
+    background-color: map-get($texto , color );
+    font-size: map-get($texto, tamFuente );
+}
